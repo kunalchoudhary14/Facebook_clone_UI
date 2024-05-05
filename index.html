@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="apple-touch-icon" sizes="180x180"  href="./favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+  <link rel="manifest" href="./favicon/site.webmanifest">
+  <title>Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books &amp; More. Best Offers!</title>
+
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="/"><img width="100"
+          src="https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/fk-plus_3b0baa.png" alt="Flipkart"
+          title="Flipkart" class="logo"></a>
+
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search for products, brands and more"
+          aria-label="Search">
+        <forbutton class="L0Z3Pu" type="submit"><svg width="20" height="20" viewBox="0 0 17 18" class=""
+            xmlns="http://www.w3.org/2000/svg">
+            <g fill="#2874F1" fill-rule="evenodd">
+              <path class="_34RNph"
+                d="m11.618 9.897l4.225 4.212c.092.092.101.232.02.313l-1.465 1.46c-.081.081-.221.072-.314-.02l-4.216-4.203">
+              </path>
+              <path class="_34RNph"
+                d="m6.486 10.901c-2.42 0-4.381-1.956-4.381-4.368 0-2.413 1.961-4.369 4.381-4.369 2.42 0 4.381 1.956 4.381 4.369 0 2.413-1.961 4.368-4.381 4.368m0-10.835c-3.582 0-6.486 2.895-6.486 6.467 0 3.572 2.904 6.467 6.486 6.467 3.582 0 6.486-2.895 6.486-6.467 0-3.572-2.904-6.467-6.486-6.467">
+              </path>
+            </g>
+          </svg>
+        </forbutton>
+      </form>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <div class="login">Login</div>
+          </li>
+          <li>
+            <span id="more" onmouseover="func1()" onmouseout="func2()">More</span>
+            <svg onmouseover="func1()" onmouseout="func2()" width="4.7" id="arrow" height="8" viewBox="0 0 16 27"
+              xmlns="http://www.w3.org/2000/svg" class="zZ3yfL">
+              <path d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z" fill="#fff" class="_2gTTdy">
+              </path>
+            </svg>
+          </li>
+          <a href="https://www.flipkart.com/viewcart?otracker=Cart_Icon_Click">
+            <li>
+              <svg class="V3C5bO" width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                <path class="_1bS9ic"
+                  d="M15.32 2.405H4.887C3 2.405 2.46.805 2.46.805L2.257.21C2.208.085 2.083 0 1.946 0H.336C.1 0-.064.24.024.46l.644 1.945L3.11 9.767c.047.137.175.23.32.23h8.418l-.493 1.958H3.768l.002.003c-.017 0-.033-.003-.05-.003-1.06 0-1.92.86-1.92 1.92s.86 1.92 1.92 1.92c.99 0 1.805-.75 1.91-1.712l5.55.076c.12.922.91 1.636 1.867 1.636 1.04 0 1.885-.844 1.885-1.885 0-.866-.584-1.593-1.38-1.814l2.423-8.832c.12-.433-.206-.86-.655-.86"
+                  fill="#fff"></path>
+              </svg>
+              <span id="cart">Cart</span>
+            </li>
+          </a>
+        </ul>
+        <div id="hoverDisplay"></div>
+      </div>
+    </div>
+  </nav>
+  <!-- /Navbar -->
+  <div class="category">
+    <ul>
+      <a
+        href="https://www.flipkart.com/offers-store?otracker=nmenu_offer-zone&fm=neo%2Fmerchandising&iid=M_cbccfb90-58d3-46bb-a3e9-4ca732c32c9b_1_372UD5BXDFYS_MC.G6ZC4RAJ9OHU&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Top%2BOffers_G6ZC4RAJ9OHU&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L0_view-all&cid=G6ZC4RAJ9OHU">
+        <li><img class="_396cs4 _3exPp9" alt="Top Offers"
+            src="https://rukminim1.flixcart.com/flap/128/128/image/f15c02bfeb02d15d.png?q=100">
+          <br>Top Offers
+        </li>
+      </a>
+
+      <a href="https://www.flipkart.com/grocery-supermart-store?marketplace=GROCERY&fm=neo%2Fmerchandising&iid=M_f71a1f65-e1fc-40be-ab69-cec95bd48803_1_372UD5BXDFYS_MC.CBUR1Q46W5F1&otracker=hp_rich_navigation_2_1.navigationCard.RICH_NAVIGATION_Grocery_CBUR1Q46W5F1&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_2_L0_view-all&cid=CBUR1Q46W5F1">
+        <li><img class="_396cs4 _3exPp9" alt="Grocery"
+            src="https://rukminim1.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100"><br>Grocery</li>
+      </a>
+
+      <a
+        href="https://www.flipkart.com/mobile-phones-store?fm=neo%2Fmerchandising&iid=M_f71a1f65-e1fc-40be-ab69-cec95bd48803_1_372UD5BXDFYS_MC.ZRQ4DKH28K8J&otracker=hp_rich_navigation_3_1.navigationCard.RICH_NAVIGATION_Mobiles_ZRQ4DKH28K8J&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L0_view-all&cid=ZRQ4DKH28K8J">
+        <li><img class="_396cs4 _3exPp9" alt="Mobiles"
+            src="https://rukminim1.flixcart.com/flap/128/128/image/22fddf3c7da4c4f4.png?q=100"><br>Mobiles</li>
+      </a>
+
+      <li onmouseover="func3()" onmouseout="func4()"><img class="_396cs4 _3exPp9" alt="Fashion"
+          src="https://rukminim1.flixcart.com/flap/128/128/image/82b3ca5fb2301045.png?q=100"><br>Fashion
+        <svg width="5" height="8" viewBox="0 0 16 27" xmlns="http://www.w3.org/2000/svg" class="_2sVfI7">
+          <path d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z" fill="#000" class="_1zrN4q"></path>
+        </svg>
+
+      </li>
+
+
+      <li onmouseover="func5()" onmouseout="func6()"><img class="_396cs4 _3exPp9" alt="Electronics"
+          src="https://rukminim1.flixcart.com/flap/128/128/image/69c6589653afdb9a.png?q=100"><br>Electronics
+        <svg width="5" height="8" viewBox="0 0 16 27" xmlns="http://www.w3.org/2000/svg" class="_2sVfI7">
+          <path d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z" fill="#000" class="_1zrN4q"></path>
+        </svg>
+      </li>
+
+
+      <li onmouseover="func7()" onmouseout="func8()"><img class="_396cs4 _3exPp9" alt="Home"
+          src="https://rukminim1.flixcart.com/flap/128/128/image/ab7e2b022a4587dd.jpg?q=100"><br>Home
+        <svg width="5" height="8" viewBox="0 0 16 27" xmlns="http://www.w3.org/2000/svg" class="_2sVfI7">
+          <path d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z" fill="#000" class="_1zrN4q"></path>
+        </svg>
+      </li>
+
+      <li onmouseover="func9()" onmouseout="func10()"><img class="_396cs4 _3exPp9" alt="Appliances"
+          src="https://rukminim1.flixcart.com/flap/128/128/image/0ff199d1bd27eb98.png?q=100"><br>Appliances
+        <svg width="5" height="8" viewBox="0 0 16 27" xmlns="http://www.w3.org/2000/svg" class="_2sVfI7">
+          <path d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z" fill="#000" class="_1zrN4q"></path>
+        </svg>
+      </li>
+
+      <a
+        href="https://www.flipkart.com/travel/flights?param=DTNavIcon&fm=neo%2Fmerchandising&iid=M_f71a1f65-e1fc-40be-ab69-cec95bd48803_1_372UD5BXDFYS_MC.V4ZPKTOAO321&otracker=hp_rich_navigation_8_1.navigationCard.RICH_NAVIGATION_Travel_V4ZPKTOAO321&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_8_L0_view-all&cid=V4ZPKTOAO321">
+        <li><img class="_396cs4 _3exPp9" alt="Travel"
+            src="https://rukminim1.flixcart.com/flap/128/128/image/71050627a56b4693.png?q=100"><br>Travel</li>
+      </a>
+
+      <li onmouseover="func11()" onmouseout="func12()"><img class="_396cs4 _3exPp9" alt="Beauty, Toys &amp; More"
+          src="https://rukminim1.flixcart.com/flap/128/128/image/dff3f7adcf3a90c6.png?q=100"><br>Beauty, Toys & More
+        <svg width="5" height="8" viewBox="0 0 16 27" xmlns="http://www.w3.org/2000/svg" class="_2sVfI7">
+          <path d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z" fill="#000" class="_1zrN4q"></path>
+        </svg>
+      </li>
+    </ul>
+    <hr>
+  </div>
+
+
+  <div class="grey">
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+       <a href="
+       https://bit.ly/3tCW3oh
+       " class="slidepic"> <img class="kJjFO0" src="./assets/pic1.png" alt="LS-10th-Sept-Brand-Party-HPW1"></a>
+      </div>
+      <div class="carousel-item">
+        <a href="https://bit.ly/3hppTry" class="slidepic"><img class="kJjFO0 _3DIhEh" src="./assets/pic2.png" alt="."></a>
+      </div>
+      <div class="carousel-item">
+        <a href="https://bit.ly/3C5RmXc" class="slidepic"><img class="kJjFO0 _3DIhEh" src="./assets/pic3.png" alt="Mattresses"></a>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+      </div>
+
+      <div class="firstBox">
+    <div class="dotd">
+         <div class="navigation">
+           <h4 class="dotdtext">Deals of the Day</h4>
+        
+           <div class="timebox">
+            <img class="_1WXTS9" src="https://static-assets-web.flixcart.com/www/linchpin/fk-cp-zion/img/timer_a73398.svg" height="24" width="24">
+           <span class="timeDisplay"></span>
+           <span style="color: #7f7f7f">left</span>
+          </div>
+     <a href="https://www.flipkart.com/dotd-store?=Web&wid=4.dealCard.OMU_3&otracker=hp_omu_Deals%2Bof%2Bthe%2BDay_3&otracker1=hp_omu_SECTIONED_manualRanking_neo%2Fmerchandising_Deals%2Bof%2Bthe%2BDay_NA_wc_view-all_3"> 
+      <button class="btn btn-primary viewall"  style="border-radius: 0;">VIEW ALL</button></a>
+         </div>
+         <hr>
+
+       <div class="picBox">
+         <div class="CXW8mj" style="height:150px;width:150px">
+          <a href="https://www.flipkart.com/mens-tshirts/pr?sid=clo,ash,ank,edy&fm=neo%2Fmerchandising&iid=M_30e6c949-a175-467a-9aac-4aed89036c12_1_372UD5BXDFYS_MC.IF56C41VGEYS&otracker=hp_rich_navigation_2_1.navigationCard.RICH_NAVIGATION_Fashion~Men%2527s%2BTop%2BWear~Men%2527s%2BT-Shirts_IF56C41VGEYS&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_2_L2_view-all&cid=IF56C41VGEYS">
+          <img class="_396cs4 _3exPp9" alt="Dennis Lingo Men Checkered Casual Blue Shirt" src="https://rukminim1.flixcart.com/image/150/150/k6fd47k0/shirt/9/f/5/xl-c415-tealblue-dennis-lingo-original-imafzvvrxzt8tpar.jpeg?q=70" srcset="https://rukminim1.flixcart.com/image/300/300/k6fd47k0/shirt/9/f/5/xl-c415-tealblue-dennis-lingo-original-imafzvvrxzt8tpar.jpeg?q=70 2x, https://rukminim1.flixcart.com/image/150/150/k6fd47k0/shirt/9/f/5/xl-c415-tealblue-dennis-lingo-original-imafzvvrxzt8tpar.jpeg?q=70 1x"></a></div>
+
+         <div class="CXW8mj" style="height:150px;width:150px">
+          <a href="https://www.flipkart.com/search?q=irons&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off">
+          <img class="_396cs4 _3exPp9" alt="Irons, Electric Cookers &amp; more (Up to 60% Off)" src="https://rukminim1.flixcart.com/image/150/150/jxtakcw0/iron/z/x/m/chartbusters-non-stick-dry-750-w-np-017-original-imaf8qzfx4nhepes.jpeg?q=70" srcset="https://rukminim1.flixcart.com/image/300/300/jxtakcw0/iron/z/x/m/chartbusters-non-stick-dry-750-w-np-017-original-imaf8qzfx4nhepes.jpeg?q=70 2x, https://rukminim1.flixcart.com/image/150/150/jxtakcw0/iron/z/x/m/chartbusters-non-stick-dry-750-w-np-017-original-imaf8qzfx4nhepes.jpeg?q=70 1x">
+        </a>
+        </div>
+
+
+         <div class="CXW8mj" style="height:150px;width:150px">
+          <a href="https://www.flipkart.com/search?q=wooden+temple&otracker=AS_Query_HistoryAutoSuggest_2_0&otracker1=AS_Query_HistoryAutoSuggest_2_0&marketplace=FLIPKART&as-show=on&as=off&as-pos=2&as-type=HISTORY"><img class="_396cs4 _3exPp9" alt="AMI ENTERPRISE Engineered Wood Home Temple" src="https://rukminim1.flixcart.com/image/150/150/krdtlzk0/home-temple/q/z/o/wooden-shiny-plywood-mandir-pooja-room-home-antique-decor-office-original-imag56hxywu9wu8x.jpeg?q=70" srcset="https://rukminim1.flixcart.com/image/300/300/krdtlzk0/home-temple/q/z/o/wooden-shiny-plywood-mandir-pooja-room-home-antique-decor-office-original-imag56hxywu9wu8x.jpeg?q=70 2x, https://rukminim1.flixcart.com/image/150/150/krdtlzk0/home-temple/q/z/o/wooden-shiny-plywood-mandir-pooja-room-home-antique-decor-office-original-imag56hxywu9wu8x.jpeg?q=70 1x"></a></div>
+
+
+         <div class="_1ddvf" style="height:150px"><div class="CXW8mj" style="height:150px;width:150px">
+         <a href="https://www.flipkart.com/clothing-and-accessories/~cs-j9d2eajlld/pr?sid=clo&collection-tab-name=Western+Collection&p%5B%5D=facets.price_range.from%3D149&p%5B%5D=facets.price_range.to%3D399&sort=price_asc&offer=nb:mp:080d0d8714,nb:mp:08137bd114,nb:mp:08fc584714&hpid=eCYH_y1NhWp-WuwcSTyePap7_Hsxr70nj65vMAAFKlc=&fm=neo%2Fmerchandising&iid=M_06b637a2-e591-453b-96ad-a4d7556810d0_4.OOXQLU8XKQCH&ppt=sp&ppn=sp&ssid=lk97agzif40000001631987659823&otracker=hp_omu_Deals%2Bof%2Bthe%2BDay_6_4.dealCard.OMU_OOXQLU8XKQCH_3&otracker1=hp_omu_SECTIONED_manualRanking_neo%2Fmerchandising_Deals%2Bof%2Bthe%2BDay_NA_dealCard_cc_6_NA_view-all_3&cid=OOXQLU8XKQCH"><img class="_396cs4 _3exPp9" alt="DARZI Women A-line Blue Dress" src="https://rukminim1.flixcart.com/image/150/150/jv5k2a80/dress/y/h/9/xl-darzi-1571-darzi-original-imafg3btxwsjrbhv.jpeg?q=70" srcset="https://rukminim1.flixcart.com/image/300/300/jv5k2a80/dress/y/h/9/xl-darzi-1571-darzi-original-imafg3btxwsjrbhv.jpeg?q=70 2x, https://rukminim1.flixcart.com/image/150/150/jv5k2a80/dress/y/h/9/xl-darzi-1571-darzi-original-imafg3btxwsjrbhv.jpeg?q=70 1x"></a></div></div>
+
+         <div class="_10pbbg75" style="height:150px"><div class="CXW8mj" style="height:150px;width:150px">
+         <a href="https://www.flipkart.com/search?q=women%20tshirt&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off"> <img class="_396cs4 _3exPp9" alt="METRONAUT Printed Women Round Neck Black T-Shirt" src="https://rukminim1.flixcart.com/image/150/150/k2arbm80/t-shirt/9/z/z/s-mtss19ts001a-multicolor-metronaut-original-imafhkbxgud8z7fz.jpeg?q=70" srcset="https://rukminim1.flixcart.com/image/300/300/k2arbm80/t-shirt/9/z/z/s-mtss19ts001a-multicolor-metronaut-original-imafhkbxgud8z7fz.jpeg?q=70 2x, https://rukminim1.flixcart.com/image/150/150/k2arbm80/t-shirt/9/z/z/s-mtss19ts001a-multicolor-metronaut-original-imafhkbxgud8z7fz.jpeg?q=70 1x"></a></div></div>
+
+
+         <div class="_10pg75" style="height:150px"><div class="CXW8mj" style="height:150px;width:150px">
+          <a href="https://www.flipkart.com/home-improvement/tools-and-measuring-equipment/power-tools/power-and-hand-tool-kits/pr?sid=h1m%2Chww%2Cslm%2Cyfd"><img class="_396cs4 _3exPp9" alt="Hillgrove Hand Tool Kit" src="https://rukminim1.flixcart.com/image/150/150/k6b2snk0/power-hand-tool-kit/m/w/r/combo-of-plier-claw-hammer-2in1-screwdriver-wire-cutter-original-imafzz34ezbudhum.jpeg?q=70" srcset="https://rukminim1.flixcart.com/image/300/300/k6b2snk0/power-hand-tool-kit/m/w/r/combo-of-plier-claw-hammer-2in1-screwdriver-wire-cutter-original-imafzz34ezbudhum.jpeg?q=70 2x, https://rukminim1.flixcart.com/image/150/150/k6b2snk0/power-hand-tool-kit/m/w/r/combo-of-plier-claw-hammer-2in1-screwdriver-wire-cutter-original-imafzz34ezbudhum.jpeg?q=70 1x"></a></div></div>
+
+      </div>
+
+      <div class="descriptionBox">
+       <a href="https://www.flipkart.com/mens-tshirts/pr?sid=clo,ash,ank,edy&fm=neo%2Fmerchandising&iid=M_30e6c949-a175-467a-9aac-4aed89036c12_1_372UD5BXDFYS_MC.IF56C41VGEYS&otracker=hp_rich_navigation_2_1.navigationCard.RICH_NAVIGATION_Fashion~Men%2527s%2BTop%2BWear~Men%2527s%2BT-Shirts_IF56C41VGEYS&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_2_L2_view-all&cid=IF56C41VGEYS" style="color: black; text-decoration: none;"> <li class="firstCh">TShirts, Polos & More..</li></a>
+       <a href="https://www.flipkart.com/search?q=irons&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off" style="color: black; text-decoration: none;">  <li>Irons, Steam Iron..</li></a>
+       <a href="https://www.flipkart.com/search?q=wooden+temple&otracker=AS_Query_HistoryAutoSuggest_2_0&otracker1=AS_Query_HistoryAutoSuggest_2_0&marketplace=FLIPKART&as-show=on&as=off&as-pos=2&as-type=HISTORY" style="color: black; text-decoration: none;"><li>Wooden Temple, Sets..</li></a>
+       <a href="https://www.flipkart.com/clothing-and-accessories/~cs-j9d2eajlld/pr?sid=clo&collection-tab-name=Western+Collection&p%5B%5D=facets.price_range.from%3D149&p%5B%5D=facets.price_range.to%3D399&sort=price_asc&offer=nb:mp:080d0d8714,nb:mp:08137bd114,nb:mp:08fc584714&hpid=eCYH_y1NhWp-WuwcSTyePap7_Hsxr70nj65vMAAFKlc=&fm=neo%2Fmerchandising&iid=M_06b637a2-e591-453b-96ad-a4d7556810d0_4.OOXQLU8XKQCH&ppt=sp&ppn=sp&ssid=lk97agzif40000001631987659823&otracker=hp_omu_Deals%2Bof%2Bthe%2BDay_6_4.dealCard.OMU_OOXQLU8XKQCH_3&otracker1=hp_omu_SECTIONED_manualRanking_neo%2Fmerchandising_Deals%2Bof%2Bthe%2BDay_NA_dealCard_cc_6_NA_view-all_3&cid=OOXQLU8XKQCH" style="text-decoration: none; color:black;">    <li> Dresses, Nightwear</li></a>
+       <a href="https://www.flipkart.com/search?q=women%20tshirt&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off" style="text-decoration: none; color: black;"><li>T-Shirts, Jeans, Nighties</li></a>
+       <a href="https://www.flipkart.com/home-improvement/tools-and-measuring-equipment/power-tools/power-and-hand-tool-kits/pr?sid=h1m%2Chww%2Cslm%2Cyfd" style="color: black; text-decoration: none;">  <li>Power and Hand Tools</li></a>
+      </div>
+      <div class="discountBox">
+        <a href="https://www.flipkart.com/mens-tshirts/pr?sid=clo,ash,ank,edy&fm=neo%2Fmerchandising&iid=M_30e6c949-a175-467a-9aac-4aed89036c12_1_372UD5BXDFYS_MC.IF56C41VGEYS&otracker=hp_rich_navigation_2_1.navigationCard.RICH_NAVIGATION_Fashion~Men%2527s%2BTop%2BWear~Men%2527s%2BT-Shirts_IF56C41VGEYS&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_2_L2_view-all&cid=IF56C41VGEYS" style="color: black; text-decoration: none;"> <li class="_fc">From ₹399</li></a>
+       
+       <a href="https://www.flipkart.com/search?q=irons&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off" style="color: black; text-decoration: none;"> <li>Upto 40% Off</li></a>
+       <a href="https://www.flipkart.com/search?q=wooden+temple&otracker=AS_Query_HistoryAutoSuggest_2_0&otracker1=AS_Query_HistoryAutoSuggest_2_0&marketplace=FLIPKART&as-show=on&as=off&as-pos=2&as-type=HISTORY" style="color: black; text-decoration: none;">    <li>Upto ₹300 Off</li></a>
+       <a href="https://www.flipkart.com/clothing-and-accessories/~cs-j9d2eajlld/pr?sid=clo&collection-tab-name=Western+Collection&p%5B%5D=facets.price_range.from%3D149&p%5B%5D=facets.price_range.to%3D399&sort=price_asc&offer=nb:mp:080d0d8714,nb:mp:08137bd114,nb:mp:08fc584714&hpid=eCYH_y1NhWp-WuwcSTyePap7_Hsxr70nj65vMAAFKlc=&fm=neo%2Fmerchandising&iid=M_06b637a2-e591-453b-96ad-a4d7556810d0_4.OOXQLU8XKQCH&ppt=sp&ppn=sp&ssid=lk97agzif40000001631987659823&otracker=hp_omu_Deals%2Bof%2Bthe%2BDay_6_4.dealCard.OMU_OOXQLU8XKQCH_3&otracker1=hp_omu_SECTIONED_manualRanking_neo%2Fmerchandising_Deals%2Bof%2Bthe%2BDay_NA_dealCard_cc_6_NA_view-all_3&cid=OOXQLU8XKQCH" style="text-decoration: none; color:black;">  <li>Upto 80% Off</li></a>
+       <a href="https://www.flipkart.com/search?q=women%20tshirt&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off" style="text-decoration: none; color: black;"><li>From ₹599+Extra 10% Off</li></a>
+       <a href="https://www.flipkart.com/home-improvement/tools-and-measuring-equipment/power-tools/power-and-hand-tool-kits/pr?sid=h1m%2Chww%2Cslm%2Cyfd" style="color: black; text-decoration: none;">  <li>From ₹199</li></a>
+
+      </div>   
+
+      <div class="brandBox">
+        <a href="https://www.flipkart.com/mens-tshirts/pr?sid=clo,ash,ank,edy&fm=neo%2Fmerchandising&iid=M_30e6c949-a175-467a-9aac-4aed89036c12_1_372UD5BXDFYS_MC.IF56C41VGEYS&otracker=hp_rich_navigation_2_1.navigationCard.RICH_NAVIGATION_Fashion~Men%2527s%2BTop%2BWear~Men%2527s%2BT-Shirts_IF56C41VGEYS&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_2_L2_view-all&cid=IF56C41VGEYS" style="color: black; text-decoration: none;">  <li class="_1bb">One8, Puma, Polo..</li></a>
+        <a href="https://www.flipkart.com/search?q=irons&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off" style="color: black; text-decoration: none;">   <li class="_2bb">Phillips, Usha</li></a>
+        <a href="https://www.flipkart.com/search?q=wooden+temple&otracker=AS_Query_HistoryAutoSuggest_2_0&otracker1=AS_Query_HistoryAutoSuggest_2_0&marketplace=FLIPKART&as-show=on&as=off&as-pos=2&as-type=HISTORY" style="color: black; text-decoration: none;">  <li class="_3bb">Best Sellings</li></a>
+        <a href="https://www.flipkart.com/clothing-and-accessories/~cs-j9d2eajlld/pr?sid=clo&collection-tab-name=Western+Collection&p%5B%5D=facets.price_range.from%3D149&p%5B%5D=facets.price_range.to%3D399&sort=price_asc&offer=nb:mp:080d0d8714,nb:mp:08137bd114,nb:mp:08fc584714&hpid=eCYH_y1NhWp-WuwcSTyePap7_Hsxr70nj65vMAAFKlc=&fm=neo%2Fmerchandising&iid=M_06b637a2-e591-453b-96ad-a4d7556810d0_4.OOXQLU8XKQCH&ppt=sp&ppn=sp&ssid=lk97agzif40000001631987659823&otracker=hp_omu_Deals%2Bof%2Bthe%2BDay_6_4.dealCard.OMU_OOXQLU8XKQCH_3&otracker1=hp_omu_SECTIONED_manualRanking_neo%2Fmerchandising_Deals%2Bof%2Bthe%2BDay_NA_dealCard_cc_6_NA_view-all_3&cid=OOXQLU8XKQCH" style="text-decoration: none; color:black;">     <li class="_4bb">Metronaut, Darzi, Young T...</li></a>
+        <a href="https://www.flipkart.com/search?q=women%20tshirt&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off" style="text-decoration: none; color: black;"> <li class="_5bb">Vero mode, ONLY, Clovia...</li></a>
+        <a href="https://www.flipkart.com/home-improvement/tools-and-measuring-equipment/power-tools/power-and-hand-tool-kits/pr?sid=h1m%2Chww%2Cslm%2Cyfd" style="color: black; text-decoration: none;">   <li class="_6bb">Big Offers!</li></a>
+       
+        </div>
+        <div class="slider">
+          <svg width="14.6" height="24" viewBox="0 0 16 27" xmlns="https://www.w3.org/2000/svg" class="_1xtBwk"><path d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z" fill="#000" class="_23HYg_"></path></svg>
+        </div>
+   
+      
+
+
+      </div>
+
+
+      <div class="dvoOzE" data-tkid="M_fd74fbed-52b1-4672-9c01-690af168f6aa_4.XGWYS1R9Q2XT">
+        <a href="https://www.flipkart.com/tv-and-appliances-big-billion-days-store">
+        <img class="_14mA3H" src="https://rukminim1.flixcart.com/flap/464/708/image/01bb584a2fd6e83a.jpg?q=70" alt="Large-BBD-Intrigue-RHS">
+      </a>
+      </div>
+    </div>
+
+    <div class="dotd" style="width: 100vw;">
+      <div class="navigation">
+        <h4 class="dotdtext">Discounts for You</h4>
+    
+  <a href="https://www.flipkart.com/offers-list/discounts-for-you?screen=dynamic&pk=marketplace%3DFLIPKART~widgetType%3DdealCard~contentType%3DpersonalisedRecommendation%2Fdiscount&marketplace=FLIPKART&wid=13.dealCard.OMU_6&otracker=hp_reco_Discounts%2Bfor%2BYou_6&otracker1=hp_reco_WHITELISTED_personalisedRecommendation%2Fdiscount_Discounts%2Bfor%2BYou_DESKTOP_HORIZONTAL_wc_view-all_6"> 
+   <button class="btn btn-primary viewall"  style="border-radius: 0; margin-right: 20px;">VIEW ALL</button></a>
+      </div>
+      <hr>
+
+    <div class="picBox">
+    <div class="CXW8mj" style="height:150px;width:150px">
+       <a href="https://www.flipkart.com/headphones-earphones/pr?sid=0pm,fcn&marketplace=FLIPKART&p[]=facets.discount_range_v1%5B%5D%3D50%25+or+more&restrictLocale=true&fm=personalisedRecommendation%2Fdiscount&iid=R%3Ad%3Bpt%3Ahp%3Buid%3Ad1e72158-1ba2-11ec-b404-817173c30a0d%3B.cid%3AS_F_N_0pm_fcn__d_50-100__NONE_ALL%3Bnid%3A0pm_fcn_%3Bet%3AS%3Beid%3A0pm_fcn_%3Bmp%3AF%3Bct%3Ad%3B&ppt=None&ppn=None&ssid=ykficbxfao0000001632314666641&otracker=hp_reco_Discounts%2Bfor%2BYou_1_13.dealCard.OMU_cid%3AS_F_N_0pm_fcn__d_50-100__NONE_ALL%3Bnid%3A0pm_fcn_%3Bet%3AS%3Beid%3A0pm_fcn_%3Bmp%3AF%3Bct%3Ad%3B_6&otracker1=hp_reco_WHITELISTED_personalisedRecommendation%2Fdiscount_Discounts%2Bfor%2BYou_DESKTOP_HORIZONTAL_dealCard_cc_1_NA_view-all_6&cid=cid%3AS_F_N_0pm_fcn__d_50-100__NONE_ALL%3Bnid%3A0pm_fcn_%3Bet%3AS%3Beid%3A0pm_fcn_%3Bmp%3AF%3Bct%3Ad%3B">
+        <img class="_396cs4 _3exPp9" alt="Headphones" src="https://rukminim1.flixcart.com/image/150/150/kcc9q4w0/headphone/4/n/y/235v2-fast-charging-boat-original-imafthhggkgu3nze.jpeg?q=70" srcset="https://rukminim1.flixcart.com/image/300/300/kcc9q4w0/headphone/4/n/y/235v2-fast-charging-boat-original-imafthhggkgu3nze.jpeg?q=70 2x, https://rukminim1.flixcart.com/image/150/150/kcc9q4w0/headphone/4/n/y/235v2-fast-charging-boat-original-imafthhggkgu3nze.jpeg?q=70 1x">
+</a>
+      </div>
+
+      <div class="CXW8mj" style="height:150px;width:150px">
+       <a href="https://www.flipkart.com/laptops/pr?sid=6bo,b5g&marketplace=FLIPKART&p[]=facets.discount_range_v1%5B%5D%3D10%25+or+more&restrictLocale=true&fm=personalisedRecommendation%2Fdiscount&iid=R%3Ad%3Bpt%3Ahp%3Buid%3Acdde33ed-1bb3-11ec-8012-c544c8526103%3B.cid%3AS_F_N_6bo_b5g__d_10-100__NONE_ALL%3Bnid%3A6bo_b5g_%3Bet%3AS%3Beid%3A6bo_b5g_%3Bmp%3AF%3Bct%3Ad%3B&ppt=None&ppn=None&ssid=visr1ynlds0000001632321961255&otracker=hp_reco_Discounts%2Bfor%2BYou_2_13.dealCard.OMU_cid%3AS_F_N_6bo_b5g__d_10-100__NONE_ALL%3Bnid%3A6bo_b5g_%3Bet%3AS%3Beid%3A6bo_b5g_%3Bmp%3AF%3Bct%3Ad%3B_6&otracker1=hp_reco_WHITELISTED_personalisedRecommendation%2Fdiscount_Discounts%2Bfor%2BYou_DESKTOP_HORIZONTAL_dealCard_cc_2_NA_view-all_6&cid=cid%3AS_F_N_6bo_b5g__d_10-100__NONE_ALL%3Bnid%3A6bo_b5g_%3Bet%3AS%3Beid%3A6bo_b5g_%3Bmp%3AF%3Bct%3Ad%3B">
+        <img class="_396cs4 _3exPp9 imglap" alt="Laptops" src="https://rukminim1.flixcart.com/image/150/150/kj0bp8w0/computer/2/z/z/dell-original-imafyzfnanchbecz.jpeg?q=70" srcset="https://rukminim1.flixcart.com/image/300/300/kj0bp8w0/computer/2/z/z/dell-original-imafyzfnanchbecz.jpeg?q=70 2x, https://rukminim1.flixcart.com/image/150/150/kj0bp8w0/computer/2/z/z/dell-original-imafyzfnanchbecz.jpeg?q=70 1x">
+     </a>
+     </div>
+
+
+      <div class="CXW8mj" style="height:150px;width:150px">
+       <a href="https://www.flipkart.com/womens-sarees/pr?sid=clo,8on,zpd,9og&marketplace=FLIPKART&p[]=facets.discount_range_v1%5B%5D%3D80%25+or+more&restrictLocale=true&fm=personalisedRecommendation%2Fdiscount&iid=R%3Ad%3Bpt%3Ahp%3Buid%3Acdde33ed-1bb3-11ec-8012-c544c8526103%3B.cid%3AS_F_N_clo_8on_zpd_9og__d_80-100__NONE_ALL%3Bnid%3Aclo_8on_zpd_9og_%3Bet%3AS%3Beid%3Aclo_8on_zpd_9og_%3Bmp%3AF%3Bct%3Ad%3B&ppt=None&ppn=None&ssid=visr1ynlds0000001632321961255&otracker=hp_reco_Discounts%2Bfor%2BYou_3_13.dealCard.OMU_cid%3AS_F_N_clo_8on_zpd_9og__d_80-100__NONE_ALL%3Bnid%3Aclo_8on_zpd_9og_%3Bet%3AS%3Beid%3Aclo_8on_zpd_9og_%3Bmp%3AF%3Bct%3Ad%3B_6&otracker1=hp_reco_WHITELISTED_personalisedRecommendation%2Fdiscount_Discounts%2Bfor%2BYou_DESKTOP_HORIZONTAL_dealCard_cc_3_NA_view-all_6&cid=cid%3AS_F_N_clo_8on_zpd_9og__d_80-100__NONE_ALL%3Bnid%3Aclo_8on_zpd_9og_%3Bet%3AS%3Beid%3Aclo_8on_zpd_9og_%3Bmp%3AF%3Bct%3Ad%3B"><img class="_396cs4 _3exPp9 wmnsar" alt="Women's Sarees" src="https://rukminim1.flixcart.com/image/150/150/jxrv4i80/sari/8/a/z/free-rust-red-perfect-wear-original-imafg5wn7mpp5eyz.jpeg?q=70" srcset="https://rukminim1.flixcart.com/image/300/300/jxrv4i80/sari/8/a/z/free-rust-red-perfect-wear-original-imafg5wn7mpp5eyz.jpeg?q=70 2x, https://rukminim1.flixcart.com/image/150/150/jxrv4i80/sari/8/a/z/free-rust-red-perfect-wear-original-imafg5wn7mpp5eyz.jpeg?q=70 1x"></a></div>
+
+
+      <div class="_1ddvf" style="height:150px"><div class="CXW8mj" style="height:150px;width:150px">
+      <a href="https://www.flipkart.com/mobiles/pr?sid=tyy,4io&marketplace=FLIPKART&p[]=facets.discount_range_v1%5B%5D%3D10%25+or+more&restrictLocale=true&fm=personalisedRecommendation%2Fdiscount&iid=R%3Ad%3Bpt%3Ahp%3Buid%3Acdde33ed-1bb3-11ec-8012-c544c8526103%3B.cid%3AS_F_N_tyy_4io__d_10-100__NONE_ALL%3Bnid%3Atyy_4io_%3Bet%3AS%3Beid%3Atyy_4io_%3Bmp%3AF%3Bct%3Ad%3B&ppt=None&ppn=None&ssid=visr1ynlds0000001632321961255&otracker=hp_reco_Discounts%2Bfor%2BYou_4_13.dealCard.OMU_cid%3AS_F_N_tyy_4io__d_10-100__NONE_ALL%3Bnid%3Atyy_4io_%3Bet%3AS%3Beid%3Atyy_4io_%3Bmp%3AF%3Bct%3Ad%3B_6&otracker1=hp_reco_WHITELISTED_personalisedRecommendation%2Fdiscount_Discounts%2Bfor%2BYou_DESKTOP_HORIZONTAL_dealCard_cc_4_NA_view-all_6&cid=cid%3AS_F_N_tyy_4io__d_10-100__NONE_ALL%3Bnid%3Atyy_4io_%3Bet%3AS%3Beid%3Atyy_4io_%3Bmp%3AF%3Bct%3Ad%3B"><img class="_396cs4 _3exPp9" alt="Mobiles" src="https://rukminim1.flixcart.com/image/150/150/kfvfwy80/mobile/x/p/b/poco-c3-mzb07rhin-original-imafw8zkfygmfgfr.jpeg?q=70" srcset="https://rukminim1.flixcart.com/image/300/300/kfvfwy80/mobile/x/p/b/poco-c3-mzb07rhin-original-imafw8zkfygmfgfr.jpeg?q=70 2x, https://rukminim1.flixcart.com/image/150/150/kfvfwy80/mobile/x/p/b/poco-c3-mzb07rhin-original-imafw8zkfygmfgfr.jpeg?q=70 1x"></a></div></div>
+
+      <div class="_10pbbg75" style="height:150px"><div class="CXW8mj" style="height:150px;width:150px">
+      <a href="https://www.flipkart.com/audio-video/pr?sid=0pm&marketplace=FLIPKART&p[]=facets.discount_range_v1%5B%5D%3D50%25+or+more&restrictLocale=true&fm=personalisedRecommendation%2Fdiscount&iid=R%3Ad%3Bpt%3Ahp%3Buid%3Acdde33ed-1bb3-11ec-8012-c544c8526103%3B.cid%3AS_F_N_0pm__d_50-100__NONE_ALL%3Bnid%3A0pm_%3Bet%3AS%3Beid%3A0pm_%3Bmp%3AF%3Bct%3Ad%3B&ppt=None&ppn=None&ssid=visr1ynlds0000001632321961255&otracker=hp_reco_Discounts%2Bfor%2BYou_5_13.dealCard.OMU_cid%3AS_F_N_0pm__d_50-100__NONE_ALL%3Bnid%3A0pm_%3Bet%3AS%3Beid%3A0pm_%3Bmp%3AF%3Bct%3Ad%3B_6&otracker1=hp_reco_WHITELISTED_personalisedRecommendation%2Fdiscount_Discounts%2Bfor%2BYou_DESKTOP_HORIZONTAL_dealCard_cc_5_NA_view-all_6&cid=cid%3AS_F_N_0pm__d_50-100__NONE_ALL%3Bnid%3A0pm_%3Bet%3AS%3Beid%3A0pm_%3Bmp%3AF%3Bct%3Ad%3B"> <img class="_396cs4 _3exPp9" alt="Audio &amp; Video" src="https://rukminim1.flixcart.com/image/150/150/ksdjma80/headphone/o/f/c/airdopes-131-airdopes-138-boat-original-imag5yz96jehyqrg.jpeg?q=70" srcset="https://rukminim1.flixcart.com/image/300/300/ksdjma80/headphone/o/f/c/airdopes-131-airdopes-138-boat-original-imag5yz96jehyqrg.jpeg?q=70 2x, https://rukminim1.flixcart.com/image/150/150/ksdjma80/headphone/o/f/c/airdopes-131-airdopes-138-boat-original-imag5yz96jehyqrg.jpeg?q=70 1x"></a></div></div>
+
+
+      <div class="_10pg75 " style="height:150px;"><div class="CXW8mj fftc" style="height:150px;width:150px">
+       <a href="https://www.flipkart.com/spike-guard-and-surge-protectors/pr?sid=b8s,prq,gxf&marketplace=FLIPKART&p[]=facets.discount_range_v1%5B%5D%3D30%25+or+more&restrictLocale=true&fm=personalisedRecommendation%2Fdiscount&iid=R%3Ad%3Bpt%3Ahp%3Buid%3Acdde33ed-1bb3-11ec-8012-c544c8526103%3B.cid%3AS_F_N_b8s_prq_gxf__d_30-100__NONE_ALL%3Bnid%3Ab8s_prq_gxf_%3Bet%3AS%3Beid%3Ab8s_prq_gxf_%3Bmp%3AF%3Bct%3Ad%3B&ppt=None&ppn=None&ssid=visr1ynlds0000001632321961255&otracker=hp_reco_Discounts%2Bfor%2BYou_7_13.dealCard.OMU_cid%3AS_F_N_b8s_prq_gxf__d_30-100__NONE_ALL%3Bnid%3Ab8s_prq_gxf_%3Bet%3AS%3Beid%3Ab8s_prq_gxf_%3Bmp%3AF%3Bct%3Ad%3B_6&otracker1=hp_reco_WHITELISTED_personalisedRecommendation%2Fdiscount_Discounts%2Bfor%2BYou_DESKTOP_HORIZONTAL_dealCard_cc_7_NA_view-all_6&cid=cid%3AS_F_N_b8s_prq_gxf__d_30-100__NONE_ALL%3Bnid%3Ab8s_prq_gxf_%3Bet%3AS%3Beid%3Ab8s_prq_gxf_%3Bmp%3AF%3Bct%3Ad%3B">
+        <img class="_396cs4 _3exPp9 spkimg" alt="Spike Guard and Surge Protectors" src="https://rukminim1.flixcart.com/image/150/150/kk4c13k0/surge-protector/a/n/i/bec1162-buildskill-original-imafzj5rn8bfj6ky.jpeg?q=70" srcset="https://rukminim1.flixcart.com/image/300/300/kk4c13k0/surge-protector/a/n/i/bec1162-buildskill-original-imafzj5rn8bfj6ky.jpeg?q=70 2x, https://rukminim1.flixcart.com/image/150/150/kk4c13k0/surge-protector/a/n/i/bec1162-buildskill-original-imafzj5rn8bfj6ky.jpeg?q=70 1x">
+      </a></div></div>
+
+   </div>
+
+   <div class="descriptionBox" style="text-align: center;">
+    <a href="https://www.flipkart.com/headphones-earphones/pr?sid=0pm,fcn&marketplace=FLIPKART&p[]=facets.discount_range_v1%5B%5D%3D50%25+or+more&restrictLocale=true&fm=personalisedRecommendation%2Fdiscount&iid=R%3Ad%3Bpt%3Ahp%3Buid%3Ad1e72158-1ba2-11ec-b404-817173c30a0d%3B.cid%3AS_F_N_0pm_fcn__d_50-100__NONE_ALL%3Bnid%3A0pm_fcn_%3Bet%3AS%3Beid%3A0pm_fcn_%3Bmp%3AF%3Bct%3Ad%3B&ppt=None&ppn=None&ssid=ykficbxfao0000001632314666641&otracker=hp_reco_Discounts%2Bfor%2BYou_1_13.dealCard.OMU_cid%3AS_F_N_0pm_fcn__d_50-100__NONE_ALL%3Bnid%3A0pm_fcn_%3Bet%3AS%3Beid%3A0pm_fcn_%3Bmp%3AF%3Bct%3Ad%3B_6&otracker1=hp_reco_WHITELISTED_personalisedRecommendation%2Fdiscount_Discounts%2Bfor%2BYou_DESKTOP_HORIZONTAL_dealCard_cc_1_NA_view-all_6&cid=cid%3AS_F_N_0pm_fcn__d_50-100__NONE_ALL%3Bnid%3A0pm_fcn_%3Bet%3AS%3Beid%3A0pm_fcn_%3Bmp%3AF%3Bct%3Ad%3B" style="color: black; text-decoration: none;"> <li class="firstCh">Headphones</li></a>
+    <a href="https://www.flipkart.com/laptops/pr?sid=6bo,b5g&marketplace=FLIPKART&p[]=facets.discount_range_v1%5B%5D%3D10%25+or+more&restrictLocale=true&fm=personalisedRecommendation%2Fdiscount&iid=R%3Ad%3Bpt%3Ahp%3Buid%3Acdde33ed-1bb3-11ec-8012-c544c8526103%3B.cid%3AS_F_N_6bo_b5g__d_10-100__NONE_ALL%3Bnid%3A6bo_b5g_%3Bet%3AS%3Beid%3A6bo_b5g_%3Bmp%3AF%3Bct%3Ad%3B&ppt=None&ppn=None&ssid=visr1ynlds0000001632321961255&otracker=hp_reco_Discounts%2Bfor%2BYou_2_13.dealCard.OMU_cid%3AS_F_N_6bo_b5g__d_10-100__NONE_ALL%3Bnid%3A6bo_b5g_%3Bet%3AS%3Beid%3A6bo_b5g_%3Bmp%3AF%3Bct%3Ad%3B_6&otracker1=hp_reco_WHITELISTED_personalisedRecommendation%2Fdiscount_Discounts%2Bfor%2BYou_DESKTOP_HORIZONTAL_dealCard_cc_2_NA_view-all_6&cid=cid%3AS_F_N_6bo_b5g__d_10-100__NONE_ALL%3Bnid%3A6bo_b5g_%3Bet%3AS%3Beid%3A6bo_b5g_%3Bmp%3AF%3Bct%3Ad%3B" style="color: black; text-decoration: none;" class="osd">  <li>Laptops</li></a>
+    <a href="https://www.flipkart.com/womens-sarees/pr?sid=clo,8on,zpd,9og&marketplace=FLIPKART&p[]=facets.discount_range_v1%5B%5D%3D80%25+or+more&restrictLocale=true&fm=personalisedRecommendation%2Fdiscount&iid=R%3Ad%3Bpt%3Ahp%3Buid%3Acdde33ed-1bb3-11ec-8012-c544c8526103%3B.cid%3AS_F_N_clo_8on_zpd_9og__d_80-100__NONE_ALL%3Bnid%3Aclo_8on_zpd_9og_%3Bet%3AS%3Beid%3Aclo_8on_zpd_9og_%3Bmp%3AF%3Bct%3Ad%3B&ppt=None&ppn=None&ssid=visr1ynlds0000001632321961255&otracker=hp_reco_Discounts%2Bfor%2BYou_3_13.dealCard.OMU_cid%3AS_F_N_clo_8on_zpd_9og__d_80-100__NONE_ALL%3Bnid%3Aclo_8on_zpd_9og_%3Bet%3AS%3Beid%3Aclo_8on_zpd_9og_%3Bmp%3AF%3Bct%3Ad%3B_6&otracker1=hp_reco_WHITELISTED_personalisedRecommendation%2Fdiscount_Discounts%2Bfor%2BYou_DESKTOP_HORIZONTAL_dealCard_cc_3_NA_view-all_6&cid=cid%3AS_F_N_clo_8on_zpd_9og__d_80-100__NONE_ALL%3Bnid%3Aclo_8on_zpd_9og_%3Bet%3AS%3Beid%3Aclo_8on_zpd_9og_%3Bmp%3AF%3Bct%3Ad%3B" style="color: black; text-decoration: none;" class="wmntext"><li>Women's Sarees</li></a>
+    <a href="https://www.flipkart.com/mobiles/pr?sid=tyy,4io&marketplace=FLIPKART&p[]=facets.discount_range_v1%5B%5D%3D10%25+or+more&restrictLocale=true&fm=personalisedRecommendation%2Fdiscount&iid=R%3Ad%3Bpt%3Ahp%3Buid%3Acdde33ed-1bb3-11ec-8012-c544c8526103%3B.cid%3AS_F_N_tyy_4io__d_10-100__NONE_ALL%3Bnid%3Atyy_4io_%3Bet%3AS%3Beid%3Atyy_4io_%3Bmp%3AF%3Bct%3Ad%3B&ppt=None&ppn=None&ssid=visr1ynlds0000001632321961255&otracker=hp_reco_Discounts%2Bfor%2BYou_4_13.dealCard.OMU_cid%3AS_F_N_tyy_4io__d_10-100__NONE_ALL%3Bnid%3Atyy_4io_%3Bet%3AS%3Beid%3Atyy_4io_%3Bmp%3AF%3Bct%3Ad%3B_6&otracker1=hp_reco_WHITELISTED_personalisedRecommendation%2Fdiscount_Discounts%2Bfor%2BYou_DESKTOP_HORIZONTAL_dealCard_cc_4_NA_view-all_6&cid=cid%3AS_F_N_tyy_4io__d_10-100__NONE_ALL%3Bnid%3Atyy_4io_%3Bet%3AS%3Beid%3Atyy_4io_%3Bmp%3AF%3Bct%3Ad%3B" style="text-decoration: none; color:black;" class="jjht">    <li> Mobiles</li></a>
+    <a href="https://www.flipkart.com/audio-video/pr?sid=0pm&marketplace=FLIPKART&p[]=facets.discount_range_v1%5B%5D%3D50%25+or+more&restrictLocale=true&fm=personalisedRecommendation%2Fdiscount&iid=R%3Ad%3Bpt%3Ahp%3Buid%3Acdde33ed-1bb3-11ec-8012-c544c8526103%3B.cid%3AS_F_N_0pm__d_50-100__NONE_ALL%3Bnid%3A0pm_%3Bet%3AS%3Beid%3A0pm_%3Bmp%3AF%3Bct%3Ad%3B&ppt=None&ppn=None&ssid=visr1ynlds0000001632321961255&otracker=hp_reco_Discounts%2Bfor%2BYou_5_13.dealCard.OMU_cid%3AS_F_N_0pm__d_50-100__NONE_ALL%3Bnid%3A0pm_%3Bet%3AS%3Beid%3A0pm_%3Bmp%3AF%3Bct%3Ad%3B_6&otracker1=hp_reco_WHITELISTED_personalisedRecommendation%2Fdiscount_Discounts%2Bfor%2BYou_DESKTOP_HORIZONTAL_dealCard_cc_5_NA_view-all_6&cid=cid%3AS_F_N_0pm__d_50-100__NONE_ALL%3Bnid%3A0pm_%3Bet%3AS%3Beid%3A0pm_%3Bmp%3AF%3Bct%3Ad%3B" style="text-decoration: none; color: black;" class="etcd"><li>
+      Audio & Video
+    </li></a>
+    <a href="https://www.flipkart.com/spike-guard-and-surge-protectors/pr?sid=b8s,prq,gxf&marketplace=FLIPKART&p[]=facets.discount_range_v1%5B%5D%3D30%25+or+more&restrictLocale=true&fm=personalisedRecommendation%2Fdiscount&iid=R%3Ad%3Bpt%3Ahp%3Buid%3Acdde33ed-1bb3-11ec-8012-c544c8526103%3B.cid%3AS_F_N_b8s_prq_gxf__d_30-100__NONE_ALL%3Bnid%3Ab8s_prq_gxf_%3Bet%3AS%3Beid%3Ab8s_prq_gxf_%3Bmp%3AF%3Bct%3Ad%3B&ppt=None&ppn=None&ssid=visr1ynlds0000001632321961255&otracker=hp_reco_Discounts%2Bfor%2BYou_7_13.dealCard.OMU_cid%3AS_F_N_b8s_prq_gxf__d_30-100__NONE_ALL%3Bnid%3Ab8s_prq_gxf_%3Bet%3AS%3Beid%3Ab8s_prq_gxf_%3Bmp%3AF%3Bct%3Ad%3B_6&otracker1=hp_reco_WHITELISTED_personalisedRecommendation%2Fdiscount_Discounts%2Bfor%2BYou_DESKTOP_HORIZONTAL_dealCard_cc_7_NA_view-all_6&cid=cid%3AS_F_N_b8s_prq_gxf__d_30-100__NONE_ALL%3Bnid%3Ab8s_prq_gxf_%3Bet%3AS%3Beid%3Ab8s_prq_gxf_%3Bmp%3AF%3Bct%3Ad%3B" style="color: black; text-decoration: none;" class="hhbg">  <li>Spike Guard and Surge P...</li></a>
+   </div>
+   <div class="discountBox" style="text-align: center;">
+     <a href="https://www.flipkart.com/headphones-earphones/pr?sid=0pm,fcn&marketplace=FLIPKART&p[]=facets.discount_range_v1%5B%5D%3D50%25+or+more&restrictLocale=true&fm=personalisedRecommendation%2Fdiscount&iid=R%3Ad%3Bpt%3Ahp%3Buid%3Ad1e72158-1ba2-11ec-b404-817173c30a0d%3B.cid%3AS_F_N_0pm_fcn__d_50-100__NONE_ALL%3Bnid%3A0pm_fcn_%3Bet%3AS%3Beid%3A0pm_fcn_%3Bmp%3AF%3Bct%3Ad%3B&ppt=None&ppn=None&ssid=ykficbxfao0000001632314666641&otracker=hp_reco_Discounts%2Bfor%2BYou_1_13.dealCard.OMU_cid%3AS_F_N_0pm_fcn__d_50-100__NONE_ALL%3Bnid%3A0pm_fcn_%3Bet%3AS%3Beid%3A0pm_fcn_%3Bmp%3AF%3Bct%3Ad%3B_6&otracker1=hp_reco_WHITELISTED_personalisedRecommendation%2Fdiscount_Discounts%2Bfor%2BYou_DESKTOP_HORIZONTAL_dealCard_cc_1_NA_view-all_6&cid=cid%3AS_F_N_0pm_fcn__d_50-100__NONE_ALL%3Bnid%3A0pm_fcn_%3Bet%3AS%3Beid%3A0pm_fcn_%3Bmp%3AF%3Bct%3Ad%3B" style="color: black; text-decoration: none;"> <li class="_fc">Min 50% Off</li></a>
+    
+    <a href="https://www.flipkart.com/laptops/pr?sid=6bo,b5g&marketplace=FLIPKART&p[]=facets.discount_range_v1%5B%5D%3D10%25+or+more&restrictLocale=true&fm=personalisedRecommendation%2Fdiscount&iid=R%3Ad%3Bpt%3Ahp%3Buid%3Acdde33ed-1bb3-11ec-8012-c544c8526103%3B.cid%3AS_F_N_6bo_b5g__d_10-100__NONE_ALL%3Bnid%3A6bo_b5g_%3Bet%3AS%3Beid%3A6bo_b5g_%3Bmp%3AF%3Bct%3Ad%3B&ppt=None&ppn=None&ssid=visr1ynlds0000001632321961255&otracker=hp_reco_Discounts%2Bfor%2BYou_2_13.dealCard.OMU_cid%3AS_F_N_6bo_b5g__d_10-100__NONE_ALL%3Bnid%3A6bo_b5g_%3Bet%3AS%3Beid%3A6bo_b5g_%3Bmp%3AF%3Bct%3Ad%3B_6&otracker1=hp_reco_WHITELISTED_personalisedRecommendation%2Fdiscount_Discounts%2Bfor%2BYou_DESKTOP_HORIZONTAL_dealCard_cc_2_NA_view-all_6&cid=cid%3AS_F_N_6bo_b5g__d_10-100__NONE_ALL%3Bnid%3A6bo_b5g_%3Bet%3AS%3Beid%3A6bo_b5g_%3Bmp%3AF%3Bct%3Ad%3B" class="_ggf" style="color: black; text-decoration: none;"> <li>Min 10% Off</li></a>
+    <a href="https://www.flipkart.com/womens-sarees/pr?sid=clo,8on,zpd,9og&marketplace=FLIPKART&p[]=facets.discount_range_v1%5B%5D%3D80%25+or+more&restrictLocale=true&fm=personalisedRecommendation%2Fdiscount&iid=R%3Ad%3Bpt%3Ahp%3Buid%3Acdde33ed-1bb3-11ec-8012-c544c8526103%3B.cid%3AS_F_N_clo_8on_zpd_9og__d_80-100__NONE_ALL%3Bnid%3Aclo_8on_zpd_9og_%3Bet%3AS%3Beid%3Aclo_8on_zpd_9og_%3Bmp%3AF%3Bct%3Ad%3B&ppt=None&ppn=None&ssid=visr1ynlds0000001632321961255&otracker=hp_reco_Discounts%2Bfor%2BYou_3_13.dealCard.OMU_cid%3AS_F_N_clo_8on_zpd_9og__d_80-100__NONE_ALL%3Bnid%3Aclo_8on_zpd_9og_%3Bet%3AS%3Beid%3Aclo_8on_zpd_9og_%3Bmp%3AF%3Bct%3Ad%3B_6&otracker1=hp_reco_WHITELISTED_personalisedRecommendation%2Fdiscount_Discounts%2Bfor%2BYou_DESKTOP_HORIZONTAL_dealCard_cc_3_NA_view-all_6&cid=cid%3AS_F_N_clo_8on_zpd_9og__d_80-100__NONE_ALL%3Bnid%3Aclo_8on_zpd_9og_%3Bet%3AS%3Beid%3Aclo_8on_zpd_9og_%3Bmp%3AF%3Bct%3Ad%3B" style="color: black; text-decoration: none;"><li>Min 80% Off</li></a>
+    <a href="https://www.flipkart.com/mobiles/pr?sid=tyy,4io&marketplace=FLIPKART&p[]=facets.discount_range_v1%5B%5D%3D10%25+or+more&restrictLocale=true&fm=personalisedRecommendation%2Fdiscount&iid=R%3Ad%3Bpt%3Ahp%3Buid%3Acdde33ed-1bb3-11ec-8012-c544c8526103%3B.cid%3AS_F_N_tyy_4io__d_10-100__NONE_ALL%3Bnid%3Atyy_4io_%3Bet%3AS%3Beid%3Atyy_4io_%3Bmp%3AF%3Bct%3Ad%3B&ppt=None&ppn=None&ssid=visr1ynlds0000001632321961255&otracker=hp_reco_Discounts%2Bfor%2BYou_4_13.dealCard.OMU_cid%3AS_F_N_tyy_4io__d_10-100__NONE_ALL%3Bnid%3Atyy_4io_%3Bet%3AS%3Beid%3Atyy_4io_%3Bmp%3AF%3Bct%3Ad%3B_6&otracker1=hp_reco_WHITELISTED_personalisedRecommendation%2Fdiscount_Discounts%2Bfor%2BYou_DESKTOP_HORIZONTAL_dealCard_cc_4_NA_view-all_6&cid=cid%3AS_F_N_tyy_4io__d_10-100__NONE_ALL%3Bnid%3Atyy_4io_%3Bet%3AS%3Beid%3Atyy_4io_%3Bmp%3AF%3Bct%3Ad%3B" style="text-decoration: none; color:black;">  <li>Min 10% Off</li></a>
+    <a href="https://www.flipkart.com/audio-video/pr?sid=0pm&marketplace=FLIPKART&p[]=facets.discount_range_v1%5B%5D%3D50%25+or+more&restrictLocale=true&fm=personalisedRecommendation%2Fdiscount&iid=R%3Ad%3Bpt%3Ahp%3Buid%3Acdde33ed-1bb3-11ec-8012-c544c8526103%3B.cid%3AS_F_N_0pm__d_50-100__NONE_ALL%3Bnid%3A0pm_%3Bet%3AS%3Beid%3A0pm_%3Bmp%3AF%3Bct%3Ad%3B&ppt=None&ppn=None&ssid=visr1ynlds0000001632321961255&otracker=hp_reco_Discounts%2Bfor%2BYou_5_13.dealCard.OMU_cid%3AS_F_N_0pm__d_50-100__NONE_ALL%3Bnid%3A0pm_%3Bet%3AS%3Beid%3A0pm_%3Bmp%3AF%3Bct%3Ad%3B_6&otracker1=hp_reco_WHITELISTED_personalisedRecommendation%2Fdiscount_Discounts%2Bfor%2BYou_DESKTOP_HORIZONTAL_dealCard_cc_5_NA_view-all_6&cid=cid%3AS_F_N_0pm__d_50-100__NONE_ALL%3Bnid%3A0pm_%3Bet%3AS%3Beid%3A0pm_%3Bmp%3AF%3Bct%3Ad%3B" style="text-decoration: none; color: black;"><li>
+      Min 50% Off
+    </li></a>
+    <a href="https://www.flipkart.com/spike-guard-and-surge-protectors/pr?sid=b8s,prq,gxf&marketplace=FLIPKART&p[]=facets.discount_range_v1%5B%5D%3D30%25+or+more&restrictLocale=true&fm=personalisedRecommendation%2Fdiscount&iid=R%3Ad%3Bpt%3Ahp%3Buid%3Acdde33ed-1bb3-11ec-8012-c544c8526103%3B.cid%3AS_F_N_b8s_prq_gxf__d_30-100__NONE_ALL%3Bnid%3Ab8s_prq_gxf_%3Bet%3AS%3Beid%3Ab8s_prq_gxf_%3Bmp%3AF%3Bct%3Ad%3B&ppt=None&ppn=None&ssid=visr1ynlds0000001632321961255&otracker=hp_reco_Discounts%2Bfor%2BYou_7_13.dealCard.OMU_cid%3AS_F_N_b8s_prq_gxf__d_30-100__NONE_ALL%3Bnid%3Ab8s_prq_gxf_%3Bet%3AS%3Beid%3Ab8s_prq_gxf_%3Bmp%3AF%3Bct%3Ad%3B_6&otracker1=hp_reco_WHITELISTED_personalisedRecommendation%2Fdiscount_Discounts%2Bfor%2BYou_DESKTOP_HORIZONTAL_dealCard_cc_7_NA_view-all_6&cid=cid%3AS_F_N_b8s_prq_gxf__d_30-100__NONE_ALL%3Bnid%3Ab8s_prq_gxf_%3Bet%3AS%3Beid%3Ab8s_prq_gxf_%3Bmp%3AF%3Bct%3Ad%3B" style="color: black; text-decoration: none;">  <li>
+      Min 30% Off
+    </li></a>
+
+   </div>   
+
+   <div class="brandBox" style="text-align: center;">
+     <a href="https://www.flipkart.com/headphones-earphones/pr?sid=0pm,fcn&marketplace=FLIPKART&p[]=facets.discount_range_v1%5B%5D%3D50%25+or+more&restrictLocale=true&fm=personalisedRecommendation%2Fdiscount&iid=R%3Ad%3Bpt%3Ahp%3Buid%3Ad1e72158-1ba2-11ec-b404-817173c30a0d%3B.cid%3AS_F_N_0pm_fcn__d_50-100__NONE_ALL%3Bnid%3A0pm_fcn_%3Bet%3AS%3Beid%3A0pm_fcn_%3Bmp%3AF%3Bct%3Ad%3B&ppt=None&ppn=None&ssid=ykficbxfao0000001632314666641&otracker=hp_reco_Discounts%2Bfor%2BYou_1_13.dealCard.OMU_cid%3AS_F_N_0pm_fcn__d_50-100__NONE_ALL%3Bnid%3A0pm_fcn_%3Bet%3AS%3Beid%3A0pm_fcn_%3Bmp%3AF%3Bct%3Ad%3B_6&otracker1=hp_reco_WHITELISTED_personalisedRecommendation%2Fdiscount_Discounts%2Bfor%2BYou_DESKTOP_HORIZONTAL_dealCard_cc_1_NA_view-all_6&cid=cid%3AS_F_N_0pm_fcn__d_50-100__NONE_ALL%3Bnid%3A0pm_fcn_%3Bet%3AS%3Beid%3A0pm_fcn_%3Bmp%3AF%3Bct%3Ad%3B" style="color: black; text-decoration: none;">  <li class="_1bb">Explore Now!</li></a>
+     <a href="https://www.flipkart.com/laptops/pr?sid=6bo,b5g&marketplace=FLIPKART&p[]=facets.discount_range_v1%5B%5D%3D10%25+or+more&restrictLocale=true&fm=personalisedRecommendation%2Fdiscount&iid=R%3Ad%3Bpt%3Ahp%3Buid%3Acdde33ed-1bb3-11ec-8012-c544c8526103%3B.cid%3AS_F_N_6bo_b5g__d_10-100__NONE_ALL%3Bnid%3A6bo_b5g_%3Bet%3AS%3Beid%3A6bo_b5g_%3Bmp%3AF%3Bct%3Ad%3B&ppt=None&ppn=None&ssid=visr1ynlds0000001632321961255&otracker=hp_reco_Discounts%2Bfor%2BYou_2_13.dealCard.OMU_cid%3AS_F_N_6bo_b5g__d_10-100__NONE_ALL%3Bnid%3A6bo_b5g_%3Bet%3AS%3Beid%3A6bo_b5g_%3Bmp%3AF%3Bct%3Ad%3B_6&otracker1=hp_reco_WHITELISTED_personalisedRecommendation%2Fdiscount_Discounts%2Bfor%2BYou_DESKTOP_HORIZONTAL_dealCard_cc_2_NA_view-all_6&cid=cid%3AS_F_N_6bo_b5g__d_10-100__NONE_ALL%3Bnid%3A6bo_b5g_%3Bet%3AS%3Beid%3A6bo_b5g_%3Bmp%3AF%3Bct%3Ad%3B" style="color: black; text-decoration: none;">   <li class="_2bb">Buy Now!</li></a>
+     <a href="https://www.flipkart.com/womens-sarees/pr?sid=clo,8on,zpd,9og&marketplace=FLIPKART&p[]=facets.discount_range_v1%5B%5D%3D80%25+or+more&restrictLocale=true&fm=personalisedRecommendation%2Fdiscount&iid=R%3Ad%3Bpt%3Ahp%3Buid%3Acdde33ed-1bb3-11ec-8012-c544c8526103%3B.cid%3AS_F_N_clo_8on_zpd_9og__d_80-100__NONE_ALL%3Bnid%3Aclo_8on_zpd_9og_%3Bet%3AS%3Beid%3Aclo_8on_zpd_9og_%3Bmp%3AF%3Bct%3Ad%3B&ppt=None&ppn=None&ssid=visr1ynlds0000001632321961255&otracker=hp_reco_Discounts%2Bfor%2BYou_3_13.dealCard.OMU_cid%3AS_F_N_clo_8on_zpd_9og__d_80-100__NONE_ALL%3Bnid%3Aclo_8on_zpd_9og_%3Bet%3AS%3Beid%3Aclo_8on_zpd_9og_%3Bmp%3AF%3Bct%3Ad%3B_6&otracker1=hp_reco_WHITELISTED_personalisedRecommendation%2Fdiscount_Discounts%2Bfor%2BYou_DESKTOP_HORIZONTAL_dealCard_cc_3_NA_view-all_6&cid=cid%3AS_F_N_clo_8on_zpd_9og__d_80-100__NONE_ALL%3Bnid%3Aclo_8on_zpd_9og_%3Bet%3AS%3Beid%3Aclo_8on_zpd_9og_%3Bmp%3AF%3Bct%3Ad%3B" style="color: black; text-decoration: none;">  <li class="_3bb">Shop Now!</li></a>
+     <a href="https://www.flipkart.com/mobiles/pr?sid=tyy,4io&marketplace=FLIPKART&p[]=facets.discount_range_v1%5B%5D%3D10%25+or+more&restrictLocale=true&fm=personalisedRecommendation%2Fdiscount&iid=R%3Ad%3Bpt%3Ahp%3Buid%3Acdde33ed-1bb3-11ec-8012-c544c8526103%3B.cid%3AS_F_N_tyy_4io__d_10-100__NONE_ALL%3Bnid%3Atyy_4io_%3Bet%3AS%3Beid%3Atyy_4io_%3Bmp%3AF%3Bct%3Ad%3B&ppt=None&ppn=None&ssid=visr1ynlds0000001632321961255&otracker=hp_reco_Discounts%2Bfor%2BYou_4_13.dealCard.OMU_cid%3AS_F_N_tyy_4io__d_10-100__NONE_ALL%3Bnid%3Atyy_4io_%3Bet%3AS%3Beid%3Atyy_4io_%3Bmp%3AF%3Bct%3Ad%3B_6&otracker1=hp_reco_WHITELISTED_personalisedRecommendation%2Fdiscount_Discounts%2Bfor%2BYou_DESKTOP_HORIZONTAL_dealCard_cc_4_NA_view-all_6&cid=cid%3AS_F_N_tyy_4io__d_10-100__NONE_ALL%3Bnid%3Atyy_4io_%3Bet%3AS%3Beid%3Atyy_4io_%3Bmp%3AF%3Bct%3Ad%3B" style="text-decoration: none; color:black;">  <li class="_4bb ccb">
+       Hurry, Don't Miss Out!
+     </li></a>
+     <a href="https://www.flipkart.com/audio-video/pr?sid=0pm&marketplace=FLIPKART&p[]=facets.discount_range_v1%5B%5D%3D50%25+or+more&restrictLocale=true&fm=personalisedRecommendation%2Fdiscount&iid=R%3Ad%3Bpt%3Ahp%3Buid%3Acdde33ed-1bb3-11ec-8012-c544c8526103%3B.cid%3AS_F_N_0pm__d_50-100__NONE_ALL%3Bnid%3A0pm_%3Bet%3AS%3Beid%3A0pm_%3Bmp%3AF%3Bct%3Ad%3B&ppt=None&ppn=None&ssid=visr1ynlds0000001632321961255&otracker=hp_reco_Discounts%2Bfor%2BYou_5_13.dealCard.OMU_cid%3AS_F_N_0pm__d_50-100__NONE_ALL%3Bnid%3A0pm_%3Bet%3AS%3Beid%3A0pm_%3Bmp%3AF%3Bct%3Ad%3B_6&otracker1=hp_reco_WHITELISTED_personalisedRecommendation%2Fdiscount_Discounts%2Bfor%2BYou_DESKTOP_HORIZONTAL_dealCard_cc_5_NA_view-all_6&cid=cid%3AS_F_N_0pm__d_50-100__NONE_ALL%3Bnid%3A0pm_%3Bet%3AS%3Beid%3A0pm_%3Bmp%3AF%3Bct%3Ad%3B" style="text-decoration: none; color: black;"> <li class="_5bb">Discover now!</li></a>
+     <a href="https://www.flipkart.com/spike-guard-and-surge-protectors/pr?sid=b8s,prq,gxf&marketplace=FLIPKART&p[]=facets.discount_range_v1%5B%5D%3D30%25+or+more&restrictLocale=true&fm=personalisedRecommendation%2Fdiscount&iid=R%3Ad%3Bpt%3Ahp%3Buid%3Acdde33ed-1bb3-11ec-8012-c544c8526103%3B.cid%3AS_F_N_b8s_prq_gxf__d_30-100__NONE_ALL%3Bnid%3Ab8s_prq_gxf_%3Bet%3AS%3Beid%3Ab8s_prq_gxf_%3Bmp%3AF%3Bct%3Ad%3B&ppt=None&ppn=None&ssid=visr1ynlds0000001632321961255&otracker=hp_reco_Discounts%2Bfor%2BYou_7_13.dealCard.OMU_cid%3AS_F_N_b8s_prq_gxf__d_30-100__NONE_ALL%3Bnid%3Ab8s_prq_gxf_%3Bet%3AS%3Beid%3Ab8s_prq_gxf_%3Bmp%3AF%3Bct%3Ad%3B_6&otracker1=hp_reco_WHITELISTED_personalisedRecommendation%2Fdiscount_Discounts%2Bfor%2BYou_DESKTOP_HORIZONTAL_dealCard_cc_7_NA_view-all_6&cid=cid%3AS_F_N_b8s_prq_gxf__d_30-100__NONE_ALL%3Bnid%3Ab8s_prq_gxf_%3Bet%3AS%3Beid%3Ab8s_prq_gxf_%3Bmp%3AF%3Bct%3Ad%3B" style="color: black; text-decoration: none;">   <li class="_6bb">Big Offers!</li></a>
+    
+     </div>
+     <div class="slider">
+       <svg width="14.6" height="24" viewBox="0 0 16 27" xmlns="https://www.w3.org/2000/svg" class="_1xtBwk"><path d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z" fill="#000" class="_23HYg_"></path></svg>
+     </div>
+
+   
+
+
+   </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+<script src="./js/script.js"></script>
+</body>
+
+</html>

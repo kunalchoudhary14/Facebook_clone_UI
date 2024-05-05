@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+.navbar{
+    background-color: #2874f0;
+}
+.navbar-brand{
+    margin-left:80px ;
+}
+
+.form-control{
+border-radius: 2px;
+height: 35px;
+width: 550px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+padding-left: 15px;
+}
+
+.L0Z3Pu {
+   border: 1px solid #fff;
+   height: 30px;
+   background-color: #fff;
+   margin-left: -35px;
+   margin-top: 2.4px;
+}
+.login{
+    height: 30px;
+    border: 1px solid #ffff;
+    background-color: #ffff;
+    color: #2874f0;
+    width: 90px;
+    margin-left: 250%;
+    text-align: center;
+    margin-top: 10px;
+}
+#more{
+    position: relative;
+    color: #ffff;
+   left: 607%;
+   top: 28%;
+   cursor: pointer;
+}
+
+.zZ3yfL{
+    transform: rotate(-90deg);
+    margin-top: -19px;
+    margin-left: 700%;
+    cursor: pointer;
+    transition: 0.1s all ease-in-out;
+}
+ .V3C5bO{
+    position: relative;
+   left: 638%;
+   top: 12px;
+   text-decoration: none;
+}
+#cart{
+    color: #ffff;
+    position: relative;
+   left: 640%;
+   top: 13px;
+   text-decoration: none;
+}
+#cartBox{
+    margin-top: 13px;
+    text-decoration: none;
+}
+#arrow{
+    position: relative;
+    top: -2px;
+}
+.category ul {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    font-weight:500;
+    font-size: smaller;
+  
+}
+.category ul li{
+margin-left: 60px;
+margin-top: 10px;
+margin-bottom: -10px;
+cursor: pointer;
+}
+
+.category ul li img{
+    height: 70px;
+    width: 70px;
+}
+.category ul a{
+    text-decoration: none;
+    color: #000;
+}
+.category ul a:hover{
+    color: #1460db;
+}
+._2sVfI7{
+    transform: rotate(-90deg);
+    margin-left: 3px;
+    transition: .1s all ease-in-out;
+}
+.category ul li:hover{
+    color: #1460db;
+}
+.carousel-item img{
+    width: 100%;
+}
+#carouselExampleControls{
+    margin: 0 10px;
+    margin-top: -5px;
+
+}
+.slidepic{
+    cursor: pointer;
+}
+.grey{
+  background-color: #f1f3f6;
+}
+.dotd{
+height: 340px;
+width: 90%;
+margin: 7px;
+margin-left:10.8px;
+margin-top: 8px;
+background-color: #ffff;
+}
+
+.navigation{
+    display: flex;
+  justify-content: space-between;
+}
+
+.dotdtext{
+    margin-top: 20px;
+    margin-left: 17px;
+ 
+}
+.timebox{
+      width:150px;
+      margin-top:20px;
+      margin-right: 650px;
+      
+  }
+
+.viewall{
+     width: 100px;
+     position: relative;
+     top: 15px;
+     right: 15px;
+    }
+
+  .picBox,  .descriptionBox, .discountBox, .brandBox{
+      display: flex;
+      justify-content: space-evenly;
+  }
+
+  ._10pg75{
+      margin-top: 40px;
+  }
+  li{
+      list-style: none;
+  }
+  .descriptionBox li{
+      font-size: 13px;
+      font-weight: 550;
+      margin-top: -20px;
+  }
+.firstCh{
+    margin-left: -20px;
+}
+
+.discountBox li{
+font-size: 13px;
+color:#388e3c;
+}
+
+._fc{
+    margin-left: -30px;
+    margin-right: 40px;
+}
+
+.brandBox li{
+    font-size: 13px;
+}
+._1bb, ._5bb{
+    margin-left: -40px;
+}
+._3bb{
+    margin-left: 20px;
+}
+._2bb{
+    margin-left: 15px;
+}
+._396cs4{
+    cursor: pointer;
+}
+._396cs4:hover{
+    transform: scale(1.05);
+}
+.dvoOzE img{
+    margin-top: 8px;
+    height: 342px;
+    margin-right: 8px;
+}
+.firstBox{
+    display: flex;
+}
+.slider{
+    height: 100px;
+    width: 50px;
+    margin-left: 95.5%;
+    margin-top: -13%;
+position: relative;
+background-color: rgb(255, 255, 255);
+cursor: pointer;
+box-shadow: 0 -5px 10px -5px rgba(115,115,115,0.75),
+0 10px 10px -5px rgba(115,115,115,0.75);
+}
+._1xtBwk{
+    transform: rotate(180deg);
+    margin-top:35px;
+    margin-left: 18px;
+}
+
+/* Laptop Icon css */
+.imglap{
+    margin-bottom: -150px;
+}
+.osd{
+    margin-left: 40px;
+}
+
+._ggf{
+    margin-left: -30px;
+}
+._2bb{
+    margin-left: -10px;
+}
+
+/* Women Saree CSS */
+.wmnsar{
+    margin-left: 40px;
+}
+.wmntext{
+   margin-left: 30px;
+}
+/* Mobile css */
+._3exPp9{
+    margin-left: 10px;
+}
+.jjht{
+    margin-left: 20px;
+}
+._4bb{
+  margin-right: 40px;
+  margin-left: -50px;
+}
+
+/* Audio and Video */
+.etcd{
+    margin-right: -40px;
+    margin-left: 30px;
+}
+._5bb{
+    margin-left: -100px;
+}
+
+/* Spike Css */
+.spkimg{
+margin-top: -40px;
+}
